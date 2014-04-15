@@ -1,4 +1,4 @@
-is-course
+ios-course
 =========
 
 My iOS course code

@@ -25,6 +25,7 @@
 		87160C291953DD6D000CE15E /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 87160C281953DD6D000CE15E /* Deck.m */; };
 		87160C2C1953E31F000CE15E /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 87160C2B1953E31F000CE15E /* PlayingCard.m */; };
 		87160C2F1953E999000CE15E /* PlayingDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 87160C2E1953E999000CE15E /* PlayingDeck.m */; };
+		87160C321954B051000CE15E /* MatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 87160C311954B051000CE15E /* MatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		87160C2B1953E31F000CE15E /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 		87160C2D1953E999000CE15E /* PlayingDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingDeck.h; sourceTree = "<group>"; };
 		87160C2E1953E999000CE15E /* PlayingDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingDeck.m; sourceTree = "<group>"; };
+		87160C301954B051000CE15E /* MatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchingGame.h; sourceTree = "<group>"; };
+		87160C311954B051000CE15E /* MatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,8 @@
 				87160C2B1953E31F000CE15E /* PlayingCard.m */,
 				87160C2D1953E999000CE15E /* PlayingDeck.h */,
 				87160C2E1953E999000CE15E /* PlayingDeck.m */,
+				87160C301954B051000CE15E /* MatchingGame.h */,
+				87160C311954B051000CE15E /* MatchingGame.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 				87160BFE1953C93F000CE15E /* AppDelegate.m in Sources */,
 				87160BFA1953C93F000CE15E /* main.m in Sources */,
 				87160C241953D653000CE15E /* Card.m in Sources */,
+				87160C321954B051000CE15E /* MatchingGame.m in Sources */,
 				87160C2F1953E999000CE15E /* PlayingDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

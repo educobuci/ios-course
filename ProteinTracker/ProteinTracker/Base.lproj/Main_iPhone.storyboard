@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="o7F-cH-hLj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="o7F-cH-hLj">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -90,6 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="485" y="527"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ssI-wa-JX2">
@@ -104,7 +105,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4iX-yn-kx0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="282" y="707"/>
+            <point key="canvasLocation" x="47" y="527"/>
         </scene>
         <!--History View Controller-->
         <scene sceneID="s0n-5Y-9XL">
@@ -149,7 +150,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="etg-6d-cx8" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="xzc-ov-68U" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="725" y="85"/>
+            <point key="canvasLocation" x="924" y="527"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

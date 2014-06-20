@@ -119,8 +119,6 @@
 		878F952218F9944500460F0D /* ProteinTracker */ = {
 			isa = PBXGroup;
 			children = (
-				878F952B18F9944500460F0D /* AppDelegate.h */,
-				878F952C18F9944500460F0D /* AppDelegate.m */,
 				878F952E18F9944500460F0D /* Main_iPhone.storyboard */,
 				878F953118F9944500460F0D /* Main_iPad.storyboard */,
 				878F953418F9944500460F0D /* MainViewController.h */,
@@ -137,6 +135,8 @@
 		878F952318F9944500460F0D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				878F952B18F9944500460F0D /* AppDelegate.h */,
+				878F952C18F9944500460F0D /* AppDelegate.m */,
 				878F952418F9944500460F0D /* ProteinTracker-Info.plist */,
 				878F952518F9944500460F0D /* InfoPlist.strings */,
 				878F952818F9944500460F0D /* main.m */,

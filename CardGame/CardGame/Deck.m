@@ -15,7 +15,7 @@
 
 - (NSMutableArray *) cards{
     if (!_cards) {
-        _cards = [[NSMutableArray alloc]initWithCapacity:52];
+        _cards = [[NSMutableArray alloc]init];
     }
     return _cards;
 }
@@ -35,7 +35,7 @@
 
 - (Card *) drawRandomCard{
     Card *randomCard = nil;
-    if ([self.cards count] > 0) {
+    if ([self.cards count]) {
         unsigned index = arc4random() % [self.cards count];
         randomCard = self.cards[index];
         [self.cards removeObjectAtIndex:index];

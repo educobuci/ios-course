@@ -16,10 +16,10 @@
     if (otherCards.count == 1) {
         PlayingCard *otherCard = otherCards[0];
         if ([self.suit isEqualToString:otherCard.suit]) {
-            score = 4;
+            score = 1;
         }
         else if(self.rank == otherCard.rank){
-            score = 1;
+            score = 4;
         }
     }
     return score;

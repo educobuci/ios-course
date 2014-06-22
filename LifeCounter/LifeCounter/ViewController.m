@@ -60,7 +60,7 @@
     self.playerOneLife = 20;
     self.playerTwoLife = 20;
     
-    //self.playerTwoLifeLabel.transform = CGAffineTransformMakeRotation(M_PI);
+    self.playerTwoLifeLabel.transform = CGAffineTransformMakeRotation(M_PI);
 }
 
 - (void)didReceiveMemoryWarning

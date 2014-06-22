@@ -16,6 +16,23 @@
 @end
 
 @implementation ViewController
+
+- (IBAction)restartButton:(UIBarButtonItem *)sender {
+    self.playerOneLife = self.playerTwoLife = 20;
+    [self updateUI];
+}
+- (IBAction)diceRoll:(UIBarButtonItem *)sender {
+    int diceResult = (arc4random() % 6) + 1;
+    NSString *result = [NSString stringWithFormat:@"%d out of 6", diceResult];
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Dice roll"
+                                                    message:result
+                                                   delegate:nil
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+    [alert show];
+}
+
 - (IBAction)playerOneLifeUp
 {
     self.playerOneLife++;
